@@ -43,11 +43,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: wasd, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - navigation
+  - symbol
+  - {t: '$$mdi:keyboard-space$$', h: navigation}
   - {t: '$$mdi:keyboard-space$$', h: symbol}
   - {t: '$$mdi:keyboard-space$$', h: numpad}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-space$$', h: numpad}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   symbol:
   - {t: '`', s: '~'}
@@ -92,9 +92,9 @@ layers:
   - '>'
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -194,7 +194,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   fn:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -288,11 +288,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   scroll:
   - {t: '$$mdi:transfer$$', type: trans}
