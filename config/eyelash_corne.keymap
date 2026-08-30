@@ -77,12 +77,7 @@
 
         fn_layer_left {
             bindings = <&mo 4>;
-            key-positions = <33 43>;
-        };
-
-        fn_layer_right {
-            bindings = <&mo 4>;
-            key-positions = <36 46>;
+            key-positions = <32 42>;
         };
     };
 
